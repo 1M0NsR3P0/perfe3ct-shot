@@ -1,0 +1,106 @@
+@font-face {
+    font-family: 'Oswald';
+    src: url('/public/fonts/Oswald-Medium.ttf');
+}
+
+.fontStyle {
+    font-family: "Oswald";
+}
+
+.animateBallon {
+
+    animation-name: animateBallon;
+    animation-duration: 100s;
+    animation-iteration-count: infinite;
+    animation-direction: ease-in;
+    animation-delay: 0;
+}
+.animateBallon1 {
+
+    animation-name: animateBallon1;
+    animation-duration: 100s;
+    animation-iteration-count: infinite;
+    animation-direction: ease-in;
+    animation-delay: 0;
+}
+.animateBallon2 {
+
+    animation-name: animateBallon2;
+    animation-duration: 100s;
+    animation-iteration-count: infinite;
+    animation-direction: ease-in;
+    animation-delay: 0;
+}
+.animateBallon3 {
+
+    animation-name: animateBallon3;
+    animation-duration: 100s;
+    animation-iteration-count: infinite;
+    animation-direction: ease-in;
+    animation-delay: 0;
+}
+
+@keyframes animateBallon {
+    0% {
+        transform: translate(0px, 0px);
+
+    }
+
+    50% {
+        transform: translate(-450px, -600px);
+
+    }
+
+    100% {
+        transform: translate(-1200px, -100px);
+
+    }
+}
+@keyframes animateBallon1 {
+    0% {
+        transform: translate(0px, 0px);
+
+    }
+
+    50% {
+        transform: translate(350px, -600px);
+
+    }
+
+    100% {
+        transform: translate(1200px, -100px);
+
+    }
+}
+@keyframes animateBallon2 {
+    0% {
+        transform: translate(0px, 0px);
+
+    }
+
+    50% {
+        transform: translate(550px, 600px);
+
+    }
+
+    100% {
+        transform: translate(1200px, 100px);
+
+    }
+}
+@keyframes animateBallon3 {
+    0% {
+        transform: translate(0px, 0px);
+
+    }
+
+    50% {
+        transform: translate(-550px, 600px);
+
+    }
+
+    100% {
+        transform: translate(-1200px, -100px);
+
+    }
+}
